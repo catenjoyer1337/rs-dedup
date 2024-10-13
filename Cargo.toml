@@ -1,0 +1,8 @@
+[package]
+name = "dedup"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rspotify = { version = "0.11", features = ["client-credentials", "oauth-tokens"] }
+tokio = { version = "1", features = ["full"] }
